@@ -1,7 +1,8 @@
 from django.shortcuts import render
-from .serializers import BookingSerializer
-from .models import Booking
+from .serializers import BookingSerializer, MenuItemSerializer
+from .models import Booking, MenuItem
 from rest_framework import viewsets, permissions
+from rest_framework import generics
 
 
 # Create your views here.
