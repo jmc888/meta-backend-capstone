@@ -30,7 +30,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("restaurant/", include("restaurant.urls")),
     path("api/", include(router.urls)),
-    path("auth/registration", UserRegistrationAPIView.as_view(), name="registration"),
+    path("api/registration/", UserRegistrationAPIView.as_view(), name="registration"),
     # path("auth/", include("djoser.urls")),
-    path("auth/", include("djoser.urls.authtoken")),
+    path("api/auth/", include("djoser.urls.authtoken")),
 ]
