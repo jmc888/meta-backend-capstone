@@ -65,7 +65,7 @@ Response
 ```
 ### Endpoints (Token authentication required)
 
-#### Get all bookings
+- #### Get all bookings
 **GET /api/bookings/**
 
 Response:
@@ -90,7 +90,7 @@ Response:
 ```
 **POST**, **PUT**, **PATCH**, and **DELETE** method are reserved for admin users only.
 
-#### Get single booking by ID
+- #### Get single booking by ID
 **GET /api/bookings/{bookingId}**
 
 Response:
@@ -107,7 +107,7 @@ Response:
 **POST**, **PUT**, **PATCH**, and **DELETE** method are reserved for admin users only.
 
 
-#### Get all menu items
+- #### Get all menu items
 **GET /api/menu-items/**
 
 Response:
@@ -146,7 +146,7 @@ Response:
 ```
 **POST**, **PUT**, **PATCH**, and **DELETE** method are reserved for admin users only.
 
-#### Get single menu item by ID
+- #### Get single menu item by ID
 **GET /api/menu-items/1**
 
 Response:
