@@ -16,6 +16,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 Access the web application at http://localhost:8000/restaurant/.
+![Little Lemon Page](./demo/Little%20Lemon.png)
 
 ## API Documentation
 
