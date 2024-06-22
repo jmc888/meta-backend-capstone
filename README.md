@@ -38,7 +38,8 @@ Request:
 ```
 Response
 ```json
-{ // 201 Created
+// 201 Created
+{
     "username": "yourusername",
     "email": "youremail"
 }
@@ -57,7 +58,8 @@ Request:
 ```
 Response
 ```json
-{ // 200 OK
+// 200 OK
+{
     "auth_token": "yourtoken"
 }
 ```
@@ -68,6 +70,7 @@ Response
 
 Response:
 ```json
+// 200 OK
 [
 	{
 		"id": 1,
@@ -92,6 +95,7 @@ Response:
 
 Response:
 ```json
+// 200 OK
 {
     "id": 1,
     "name": "name1",
@@ -108,6 +112,7 @@ Response:
 
 Response:
 ```json
+// 200 OK
 [
 	{
 		"id": 1,
@@ -146,6 +151,7 @@ Response:
 
 Response:
 ```json
+// 200 OK
 {
 	"id": 1,
 	"title": "Greek salad",
