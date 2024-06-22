@@ -147,7 +147,7 @@ Response:
 **POST**, **PUT**, **PATCH**, and **DELETE** method are reserved for admin users only.
 
 - #### Get single menu item by ID
-**GET /api/menu-items/1**
+**GET /api/menu-items/{menuitemID}**
 
 Response:
 ```json
